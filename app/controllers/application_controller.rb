@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   include CurrentUserConcern
   include DefaultPageContent
   
+<<<<<<< HEAD
   
   before_action :set_copyright
   
@@ -14,3 +15,8 @@ class ApplicationController < ActionController::Base
   end
 end
 
+=======
+
+end
+  
+>>>>>>> rubygem
