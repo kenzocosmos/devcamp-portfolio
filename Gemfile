@@ -54,8 +54,8 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 
 
-
-gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+# gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'jquery-rails'
 gem 'Goodnow_view_tool'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
