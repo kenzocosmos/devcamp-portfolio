@@ -1,3 +1,4 @@
+=begin
 CarrierWave.configure do |config|
   config.storage    = :aws
   config.aws_bucket = ENV.fetch('S3_BUCKET_NAME')
@@ -14,3 +15,5 @@ CarrierWave.configure do |config|
     region:            ENV.fetch('AWS_REGION') # Required
   }
 end
+
+=end
